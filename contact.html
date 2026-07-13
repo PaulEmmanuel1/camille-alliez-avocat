@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez le cabinet de Maître Camille Alliez à Nîmes. Téléphone : 06 32 95 62 06. Adresse : 6 rue Briçonnet, 30000 Nîmes. Email : camille.alliez@avocat.fr.">
+    <title>Contact & Accès Cabinet Avocat Nîmes | Maître Camille Alliez</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- STICKY HEADER -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-container">
+                <a href="index.html" class="logo">
+                    <span class="logo-title">Camille Alliez</span>
+                    <span class="logo-sub">Avocat au Barreau de Nîmes</span>
+                </a>
+                
+                <nav class="nav-menu">
+                    <a href="index.html" class="nav-link">Accueil</a>
+                    <a href="droit-de-la-famille.html" class="nav-link">Droit de la Famille</a>
+                    <a href="droit-civil.html" class="nav-link">Droit Civil</a>
+                    <a href="droit-penal.html" class="nav-link">Droit Pénal</a>
+                    <a href="honoraires.html" class="nav-link">Honoraires</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </nav>
+                
+                <a href="tel:0632956206" class="btn-phone">
+                    <span>📞</span> 06 32 95 62 06
+                </a>
+                
+                <button class="burger" aria-label="Menu principal">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <span class="hero-tag">Disponibilité & Réactivité</span>
+            <h1>Contactez le Cabinet</h1>
+            <p class="page-hero-desc">Prenez rendez-vous pour une consultation au cabinet ou demandez des informations complémentaires via notre formulaire sécurisé.</p>
+        </div>
+    </section>
+
+    <!-- PAGE CONTENT (CONTACT GRID) -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- Left side: Contact Form -->
+                <div class="contact-form-section">
+                    <h2 style="font-size: 1.8rem; margin-bottom: 25px; font-family: var(--font-serif);">Formulaire de contact</h2>
+                    
+                    <!-- Secure static form using FormSubmit (free static form handler) -->
+                    <form id="contactForm" action="https://formsubmit.co/camille.alliez@avocat.fr" method="POST">
+                        
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="Nouveau message depuis le site web - Camille Alliez Avocat">
+                        <input type="hidden" name="_next" value="https://camille-alliez-avocat.github.io/contact.html?status=success">
+                        <input type="hidden" name="_captcha" value="true">
+                        
+                        <div class="form-group-grid">
+                            <div class="form-group">
+                                <label for="lastname" class="form-label">Nom</label>
+                                <input type="text" id="lastname" name="lastname" class="form-control" required placeholder="Votre nom">
+                            </div>
+                            <div class="form-group">
+                                <label for="firstname" class="form-label">Prénom</label>
+                                <input type="text" id="firstname" name="firstname" class="form-control" required placeholder="Votre prénom">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group-grid">
+                            <div class="form-group">
+                                <label for="email" class="form-label">Adresse e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control" required placeholder="Ex: nom@exemple.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Téléphone</label>
+                                <input type="tel" id="phone" name="phone" class="form-control" required placeholder="Ex: 06 00 00 00 00">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Objet de votre demande</label>
+                            <select id="subject" name="subject" class="form-control" required>
+                                <option value="" disabled selected>Sélectionnez un sujet</option>
+                                <option value="Droit de la Famille">Droit de la Famille</option>
+                                <option value="Droit Civil & Consommation">Droit Civil & de la Consommation</option>
+                                <option value="Droit Pénal">Droit Pénal</option>
+                                <option value="Autre demande">Autre demande</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Description sommaire de votre situation</label>
+                            <textarea id="message" name="message" class="form-control" required placeholder="Expliquez brièvement votre dossier (sans mentionner d'éléments confidentiels sensibles)"></textarea>
+                        </div>
+                        
+                        <div class="form-checkbox">
+                            <input type="checkbox" id="rgpd" required>
+                            <label for="rgpd">En cochant cette case, j'accepte que les informations saisies soient traitées par Maître Camille Alliez dans le seul but de me recontacter, conformément aux règles déontologiques de confidentialité.</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Envoyer le message</button>
+                    </form>
+                </div>
+                
+                <!-- Right side: Contact Info -->
+                <div class="contact-info-section">
+                    <div>
+                        <h3>Coordonnées</h3>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">📍</div>
+                                <div class="contact-detail-text">
+                                    <h4>Adresse du cabinet</h4>
+                                    <p>6 rue Briçonnet<br>30000 Nîmes</p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">📞</div>
+                                <div class="contact-detail-text">
+                                    <h4>Téléphone direct</h4>
+                                    <p><a href="tel:0632956206" style="font-weight: 700; color: #ffffff;">06 32 95 62 06</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-detail-item">
+                                <div class="contact-detail-icon">✉️</div>
+                                <div class="contact-detail-text">
+                                    <h4>Adresse E-mail</h4>
+                                    <p><a href="mailto:camille.alliez@avocat.fr" style="color: #ffffff;">camille.alliez@avocat.fr</a></p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div style="border-top: 1px solid var(--color-primary-light); padding-top: 30px; margin-top: 30px;">
+                        <h4 style="color: var(--color-accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 10px;">Mentions légales de l'activité</h4>
+                        <p style="font-size: 0.8rem; color: var(--color-border); line-height: 1.5;">
+                            Maître Camille Alliez est inscrit au Barreau de Nîmes.<br>
+                            SIREN : 529 669 319<br>
+                            TVA : FR 44 529 669 319<br>
+                            Activité soumise aux règles de déontologie du Conseil National des Barreaux (CNB).
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h4>Cabinet Camille Alliez</h4>
+                    <p>Avocat inscrit au Barreau de Nîmes. Rigueur juridique, secret professionnel et engagement humain.</p>
+                    <p><strong>Adresse :</strong> 6 rue Briçonnet, 30000 Nîmes</p>
+                </div>
+                <div class="footer-links">
+                    <h5>Spécialités</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="droit-de-la-famille.html">Droit de la Famille</a></li>
+                        <li><a href="droit-civil.html">Droit Civil</a></li>
+                        <li><a href="droit-penal.html">Droit Pénal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h5>Contact rapide</h5>
+                    <ul class="footer-links-list">
+                        <li><a href="tel:0632956206">📞 06 32 95 62 06</a></li>
+                        <li><a href="mailto:camille.alliez@avocat.fr">✉️ camille.alliez@avocat.fr</a></li>
+                        <li><a href="honoraires.html">📄 Honoraires & Convention</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Cabinet de Maître Camille Alliez. Tous droits réservés.</p>
+                <div class="footer-legal-links">
+                    <a href="honoraires.html">Déontologie</a>
+                    <a href="contact.html">Mentions Légales & RGPD</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+    
+    <!-- Script for handling success states from FormSubmit -->
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('status') === 'success') {
+            const formSection = document.querySelector('.contact-form-section');
+            if (formSection) {
+                formSection.innerHTML = `
+                    <div style="text-align: center; padding: 40px 20px;">
+                        <span style="font-size: 4rem; display: block; margin-bottom: 20px;">✓</span>
+                        <h2 style="font-family: var(--font-serif); color: var(--color-primary); margin-bottom: 15px;">Message envoyé avec succès</h2>
+                        <p style="color: var(--color-text-light); max-width: 500px; margin: 0 auto 25px auto;">Maître Camille Alliez vous recontactera dans les plus brefs délais pour faire le point sur votre demande.</p>
+                        <a href="index.html" class="btn btn-secondary">Retour à l'accueil</a>
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
