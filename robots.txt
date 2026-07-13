@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://paulemmanuel1.github.io/camille-alliez-avocat/sitemap.xml
